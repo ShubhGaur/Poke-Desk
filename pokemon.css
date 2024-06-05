@@ -161,3 +161,18 @@ button:active {
   font-style: normal;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width:600px) {
+
+  h1{
+    font-size: 65px;
+  }
+  .filter{
+    flex-direction: column;
+  }
+  #pokemons{
+   justify-content: center;
+   align-items: center;
+  }
+  
+}
