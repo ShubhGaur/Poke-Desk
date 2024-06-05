@@ -139,12 +139,7 @@ button:active {
   outline: none;
   color: white;
   font-size: 15px;
-  /* padding: 24px 46px 24px 26px; */
   padding-left: 20px;
   height: 55px;
   width: 230px;
 }
-/* .up{
-  display: flex;
-  flex-direction: column;
-} */
