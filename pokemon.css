@@ -88,11 +88,14 @@ h1{
 select{
   height: 55px;
   width: 200px;
-  font-size: 16px;
+  font-size: 19px;
   border-radius: 50px;
   box-shadow: 5px 5px 10px black;
   padding-left: 8px;
   padding-right: 10px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 select{
   background: linear-gradient(to left,aqua,pink);
@@ -106,6 +109,7 @@ select{
   background: #2f3640;
   border-radius: 50px;
   position: relative;
+  
 }
 
 .searchButton {
@@ -122,7 +126,7 @@ select{
 }
 /* /hover effect/ */
 button:hover {
-  color: #fff;
+  color: black;
   background-color: #1A1A1A;
   box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
   transform: translateY(-3px);
@@ -142,4 +146,18 @@ button:active {
   padding-left: 20px;
   height: 55px;
   width: 230px;
+}
+#AddMore{
+  height: 55px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px black;
+  padding-left: 8px;
+  padding-right: 10px;
+  background: linear-gradient(to left,aqua,pink);
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 20px;
 }
